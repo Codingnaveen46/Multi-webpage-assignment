@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+body{
+    max-width: 1440px;
+    overflow: hidden;
+    background-color: #f0f4f5;
+    margin: auto;
+}
+
+/* designing nav bar  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 5%;
+}
+
+/* designing the logo */
+nav img{
+    width: 150px;
+}
+
+/* designing the navigation links  */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+}
+nav ul li:first-child{
+    font-weight: 700;
+    color: #20bc7e;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* designing the main section  */
+
+main{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+
+}
+
+.hospitaldiscreption{
+    width: 50%;
+    text-align: center;
+}
+
+.hospitaldiscreption h1{
+    margin-bottom: 20px;
+    color: #20BC7E;
+}
+
+.hospitaldiscreption p{
+    font-size: 18px;
+    font-weight: 400;
+}
+/* designing the achivement card */
+.achivement{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.achivementscard{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.achivementscard span{
+    font-size: 25px;
+    font-weight: 700;
+    color: #20bc7e;
+}
+
+.achivementscard p{
+    font-size: 20px;
+    font-weight: 500;
+}
